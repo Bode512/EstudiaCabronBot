@@ -1,0 +1,44 @@
+# Tokens and secrets
+.env
+.env.*
+*.env
+*.token
+
+# Logs (pueden contener URLs con token)
+logs/
+
+# Databases
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Uploaded documents and backups
+storage/
+backups/
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
